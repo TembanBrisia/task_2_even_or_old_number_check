@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>even or old number checker</title>
+    <link rel="stylesheet" href="number.css">
+</head>
+
+<body>
+    
+    <h1>Enter any number chack if number is old or even</h1>
+
+
+
+
+    <script style="text-align: center;">
+        function data()
+        {
+            var
+            n=parseInt(document.getElementById("text_n").value);
+            if(n%2==0)
+        {
+            document.write(n+" number is EVEN");
+        }
+        
+            else
+        {
+            document.write(n+" number is ODD"); 
+        }
+
+
+        }
+    </script>
+    
+    <table>
+        <tr>
+            <td>NUMBER:</td>
+            <td> <input tupe="text" id="text_n"
+                placeholder="type number"></td>
+        </tr>
+        <tr>
+          <td  colspan="2"> <input type="button" id="butn" value="check" onclick="data()"></td>
+        </tr>
+    </table>
+
+    
+</body>
+</html>
